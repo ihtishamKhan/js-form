@@ -15,6 +15,8 @@ let errors = {
     isAgeValid: false
 }
 
+console.log(errors);
+
 function validateInputs() {
     let email = emailInput.value;
     let password = passwordInput.value;
